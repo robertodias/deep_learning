@@ -11,7 +11,6 @@ def prediction(X, W, b):
     return stepFunction((np.matmul(X,W)+b)[0])
 
     
-# TODO: Fill in the code below to implement the perceptron trick.
 # The function should receive as inputs the data X, the labels y,
 # the weights W (as an array), and the bias b,
 # update the weights and bias W, b, according to the perceptron algorithm,
